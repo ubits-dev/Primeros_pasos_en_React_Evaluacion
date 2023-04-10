@@ -1,10 +1,9 @@
 import React from "react";
 
-const ComponenteReutilizable = ({ nombre }) => {
+const ComponenteReutilizable = () => {
   return (
     <div className="Componente">
-      Hola estas utilizando este componente al que le diste el nombre de:{" "}
-      {nombre}
+      Hola estas utilizando este componente al que le diste el nombre de:
     </div>
   );
 };
