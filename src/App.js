@@ -1,7 +1,7 @@
 import './App.css';
-import NavBar from './nav-bar';
-import Footer from './footer';
-import ComponenteReutilizable from "./componente-reutilizable";
+import NavBar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
+import ComponenteReutilizable from "./components/componente-reutilizable/componente-reutilizable";
 
 function App() {
   return (

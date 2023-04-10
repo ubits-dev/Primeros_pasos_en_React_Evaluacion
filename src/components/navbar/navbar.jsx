@@ -1,5 +1,5 @@
 import React from "react";
-import ComponenteReutilizable from "./componente-reutilizable";
+import ComponenteReutilizable from "../componente-reutilizable/componente-reutilizable";
 
 const NavBar = () => {
   const nombreComponente = "NavBar";
