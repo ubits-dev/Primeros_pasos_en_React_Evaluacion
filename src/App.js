@@ -1,14 +1,14 @@
-import './App.css';
-import NavBar from './components/navbar/navbar';
-import Footer from './components/footer/footer';
+import "./App.css";
+import NavBar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 import ComponenteReutilizable from "./components/componente-reutilizable/componente-reutilizable";
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar />
       <ComponenteReutilizable nombre="Componente en App" />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
